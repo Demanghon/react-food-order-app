@@ -4,6 +4,18 @@
   padding: 0;
 }
 
+.empty{
+  display:flex;
+  flex-direction: column;
+}
+
+.empty span{
+  text-align: center;
+  justify-self: center;
+  padding: 10%;
+  font-size: 2rem;
+}
+
 .total {
   display: flex;
   justify-content: space-between;
